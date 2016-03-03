@@ -1,0 +1,101 @@
+#header {
+    padding-bottom: 2em;
+}
+
+/* DOCUMENT */
+.document-container {
+    border-top: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* USER CONTAINER */
+.user-container {
+}
+.user-container form {
+    display: block;
+    overflow: auto;
+}
+.user-container form .form-group {
+    padding: 0px;
+    margin: 0px;
+}
+.user-container form input,
+.user-container form button {
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: transparent;
+    padding: 1em;
+}
+.user-container form input {
+    height: 100%;
+}
+.user-container form .form-group {
+    border-left: 1px solid #999999;
+}
+.user-container form .form-group.first {
+    border: 0px;
+}
+.user-container form .form-group.last:hover {
+    background-color: #efefef;
+}
+
+/* DOCUMENT HEADER */
+.document-header .col {
+    border-left: 1px solid #999999;
+    padding: 1em;
+}
+.document-header .col.first {
+    border-left: 0px;
+}
+.document-header .col.dropdown {
+    padding: 0;
+}
+.document-header .col.dropdown a.dropdown-toggle,
+.document-header .col.dropdown .placeholder {
+    display: block;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+}
+.document-header .col.dropdown a.dropdown-toggle,
+.document-header .col.dropdown a.dropdown-toggle:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* TEXT BLOCKS */
+.text-block .row {
+    border-top: 1px solid #efefef;
+}
+.text-block.first .row {
+    border-top: 1px solid #999999;
+}
+.text-block .time-date {
+    text-align: right;
+}
+.text-block .time-date.first {
+}
+.text-block .time-date span {
+    color: #999999;
+    font-size: 0.75em;
+    padding-bottom: 1em;
+}
+.text-block .time-date,
+.text-block .text-block-content {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.text-block .text-block-content {
+    border-left: 1px solid #999999;
+    border-right: 0px;
+}
+.text-block .text-block-content:focus {
+    outline: none;
+}
+.text-block .text-block-content.first {
+}
+.text-block .text-block-content.last {
+}
