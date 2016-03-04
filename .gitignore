@@ -1,5 +1,7 @@
 config*.json
+!config-default.json
 .DS_Store
 .nvmrc
 .idea
 node_modules
+bower_components
