@@ -21,7 +21,7 @@ angular.module('liveDocuApp')
 
     .service('config', ['$http',function($http){
         var config = {};
-        $http.get('/config.json').
+        $http.get('config.json').
         then(function(res){
             if (res.status == 200 && res.data)
                 angular.copy(res.data,config);
