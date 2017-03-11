@@ -119,6 +119,7 @@ angular.module('liveDocuApp')
             email: 'piecemeta@gmail.com',
             password: 'piecemeta@gmail.com'
         };
+        this.user = {};
         this.login = function (user) {
             if (user.email && user.password) pm2.login(user);
         };
